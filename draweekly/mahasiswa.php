@@ -15,13 +15,13 @@
         <table border="1" align="center" cellspacing="5px" cellpadding="10px">
             <tr>
                 <td>
-                    <a href=index.html>Home</a>
+                    <a href="index.php">Home</a>
                 </td>
                 <td>
-                    <a href=kontak.html>kontak</a>
+                    <a href="kontak.php">kontak</a>
                 </td>
                 <td>
-                    <a href="mahasiswa.html">Data Mahasiswa</a>
+                    <a href="mahasiswa.php">Data Mahasiswa</a>
                 </td>
             </tr>
         </table>
@@ -31,14 +31,45 @@
     <a href="tambahdata.html">tambahdata</a>
         <table align="center" border="1" cellspacing="5px" cellpadding="10px">
             <tr>
-                <th rowspan="2">No</th>
-                <th rowspan="2">Nama</th>
-                <th rowspan="2">NIM</th>
-                <th rowspan="2">Foto</th>
-                <th colspan="3">Nilai</th>
-                <!-- <td>Baris 1, Kolom 2</td>  -->
-            </tr>
-            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Jurusan</th>
+                <th>Email</th>
+                <th>No_hp</th>
+                <th>Foto</th>
+                <th>Aksi</th>
+                <!-- <td>bari 1, kolom2</td> -->
+                </tr>
+                <tr>
+                 <td align="center">1</td>
+            <td>indra nur wahyu saputra</td>
+            <td>13242520026</td>
+            <td align="center">Teknologi Informasi</td>
+            <td align="center">wowokgeming6670@gmail.com</td>
+            <td align="center">0898772537354</td>
+            <td><img src="assets/img/foto.jpg" width="70px"></td>
+            <td>
+                <a href="editdata.php"><button>Edit</button></a>
+                <a href="deletdata.php"><button>Hapus</button></a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td>andika bagus setiawan </td>
+            <td>13242520036</td>
+            <td align="center">Teknologi Informasi</td>
+            <td align="center">andikabagussetiawan@gmail.com</td>
+            <td align="center">08983321427</td>
+            <td><img src="assets/img/foto2.jpg" width="70px"></td>
+             <td>
+
+                    <a href="editdata.php"><button>Edit</button></a>
+                    <a href="editdata.php"><button>Edit</button></a>
+                <td>
+             </tr>
+           </table>
+            <hr>
                 <!-- <td>Baris 2, Kolom 1</td> -->
                 <th>UTS</th>
                 <th>UAS</th>

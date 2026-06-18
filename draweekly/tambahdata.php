@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>profil</title>
-            <link rel="stylesheet" href="assets/css/style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data | Teknologi Informasi</title>
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-<form>
-        <table>
+    <h2>Tambah Data Mahasiswa</h2>
+    <nav>
+        <a href="index.php" class="active">Beranda</a>
+        <a href="biodata.php">Biodata</a>
+        <a href="tentang.php">Tentang</a>
+        <a href="mahasiswa.php">Data Mahasiswa</a></td>
+    
+    </nav>
+    <br>
+    <a href="tambahdata.php">
+        <button>tambah data</button>
+    </a>
+    </br>
+    <form action = "mahasiswa.php" method="">
+        <table cellpadding ="5px">
             <tr>
                 <td><label for="nama">Nama</label></td>
                 <td>:</td>
