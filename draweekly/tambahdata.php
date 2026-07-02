@@ -10,13 +10,13 @@
     <h2>Tambah Data Mahasiswa</h2>
     <nav>
         <a href="index.php" class="active">Beranda</a>
-        <a href="biodata.php">Biodata</a>
-        <a href="tentang.php">Tentang</a>
-        <a href="mahasiswa.php">Data Mahasiswa</a></td>
-    
+        <a href="biodata.php" class="active">Biodata</a>
+        <a href="tentang.php" class="active">Tentang</a>
+        <a href="mahasiswa.php" class="active">Data Mahasiswa</a>
+    </td>
     </nav>
     <br>
-    <a href="tambahdata.php">
+    <a href="mahasiswa.php">
         <button>tambah data</button>
     </a>
     </br>

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>kontak</title>
-            <link rel="stylesheet" href="assets/css/style.css">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontak</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <nav>
-<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">profil</a></li>
-  <li><a href="contact.asp">kontak</a></li>
-</ul>
-
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="kontak.php">Kontak</a></li>
+            <li><a href="mahasiswa.php">Data Mahasiswa</a></li>
+        </ul>
     </nav>
-    <h1>
-        halaman kontak 
-    </h1>
+
+    <div class="kontak-container">
+        <h1>Kontak</h1>
+        <p>
+            Email: wowokgeming667@gmail.com <br>
+            Instagram: @_ndraa
+        </p>
+    </div>
 </body>
 </html>
