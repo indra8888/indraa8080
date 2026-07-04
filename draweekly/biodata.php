@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Kontak</title>
+    <title>Biodata</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -16,12 +16,12 @@
 </nav>
 
 <div class="container">
+    <h2>Biodata</h2>
 
-<h2>Kontak</h2>
-
-<p>Email : ghaniahafsha101@gmail.com</p>
-<p>Instagram : @ghaniahafsha</p>
-
+    <p>Nama : Ghania Hafsha</p>
+    <p>NIM : 13242520032</p>
+    <p>Kelas : A</p>
+    <p>Program Studi : Teknologi Informasi</p>
 </div>
 
 </body>
